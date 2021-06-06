@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to left, rgb(36, 124, 226), rgb(218, 28, 208));
+    background-image: url(https://images.unsplash.com/photo-1607499699372-7bb722dff7e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin-top: 100px;
+    background-color: lightblue;
+    width: 380px;
+    border-radius: 10px;
+}
+.container{
+   
+    justify-content: space-evenly;
+    margin:auto;
+    background: linear-gradient(to left, rgb(64, 78, 202), rgb(113, 114, 177));
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 5px 5px rgb(175, 238, 235);
+}
+button{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(93, 112, 117);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 0 0 5px 5px rgb(64, 78, 202);
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+.line1{
+    
+    align-items: center;
+    justify-content:space-evenly;
+}
+#equals{
+    background-color: rgba(84, 143, 153, 0.534);
+}
+.operator{
+    background-color: lightblue;
+}
+#del{
+    margin: auto;
+    border-radius: 20px;
+    background-color: lightblue; 
+    margin-right: 10px;
+    width: 60px;
+}
+#clr{
+    margin: auto;
+    border-radius: 20px;
+    background-color: lightblue; 
+    margin-left: 10px;
+    width: 60px;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 210px;
+    border-radius: 5px;
+    background-color: rgb(93, 112, 117);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    outline:none
+}
